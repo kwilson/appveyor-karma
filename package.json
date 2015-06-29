@@ -4,7 +4,7 @@
   "description": "Web app for interacting with VOR track and trace functionality.",
   "main": "app/app.js",
   "scripts": {
-    "test": "karma start --browsers PhantomJS,Chrome,IE11,IE10,IE9,IE8 --singleRun true"
+    "test": "karma start --browsers PhantomJS --singleRun true"
   },
   "repository": {
     "type": "git",
