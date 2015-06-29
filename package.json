@@ -1,0 +1,30 @@
+{
+  "name": "appveyor-karma",
+  "version": "1.0.0",
+  "description": "Web app for interacting with VOR track and trace functionality.",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "karma start --browsers PhantomJS,Chrome,IE11,IE10,IE9,IE8 --singleRun true"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-clear-screen-reporter": "https://github.com/arthurc/karma-clear-screen-reporter/tarball/master",
+    "karma-cli": "0.0.4",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-sourcemap-loader": "^0.3.4"
+  }
+}
