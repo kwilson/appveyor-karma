@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/kwilson/appveyor-karma/"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "/issues"
+    "url": "https://github.com/kwilson/appveyor-karma/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/kwilson/appveyor-karma/",
   "devDependencies": {
     "jasmine-core": "^2.3.4",
     "karma": "^0.12.31",
