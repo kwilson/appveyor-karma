@@ -78,6 +78,10 @@ module.exports = function(config) {
             'x-ua-compatible': 'IE=EmulateIE8'
         }
     },
+    
+    junitReporter: {
+      outputFile: '../test-phantom.xml'
+    },
 
 
     // Continuous Integration mode
