@@ -7,7 +7,7 @@ describe('Calculator2 tests', function() {
 		var result = calc.subtract(1, 2);
 		
 		// Assert
-		expect(result).toBe(-1);
+		expect(result).toBe(-5);
 	});
 	
 	// it('will fail', function() {
